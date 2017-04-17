@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle scala-code-formatter",
+        "command": "scala-code-formatter:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "scala-code-formatter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "scala-code-formatter:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

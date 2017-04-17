@@ -1,0 +1,18 @@
+{
+  "name": "scala-code-formatter",
+  "main": "./lib/scala-code-formatter",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "scala-code-formatter:format"
+  },
+  "repository": "https://github.com/atom/scala-code-formatter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
