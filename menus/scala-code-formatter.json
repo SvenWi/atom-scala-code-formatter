@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle scala-code-formatter",
+        "label": "Format current scala file",
         "command": "scala-code-formatter:format"
       }
     ]
@@ -15,7 +15,7 @@
           "label": "scala-code-formatter",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Format current file",
               "command": "scala-code-formatter:format"
             }
           ]

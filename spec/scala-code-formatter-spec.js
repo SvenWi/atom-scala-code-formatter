@@ -23,7 +23,7 @@ describe('ScalaCodeFormatter', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'scala-code-formatter:toggle');
+      atom.commands.dispatch(workspaceElement, 'scala-code-formatter:format');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('ScalaCodeFormatter', () => {
 
         let scalaCodeFormatterPanel = atom.workspace.panelForItem(scalaCodeFormatterElement);
         expect(scalaCodeFormatterPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'scala-code-formatter:toggle');
+        atom.commands.dispatch(workspaceElement, 'scala-code-formatter:format');
         expect(scalaCodeFormatterPanel.isVisible()).toBe(false);
       });
     });

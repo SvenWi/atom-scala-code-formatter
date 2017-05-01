@@ -1,8 +1,8 @@
 {
   "name": "scala-code-formatter",
   "main": "./lib/scala-code-formatter",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "This Package adds the scala formatter scalafmt to Atom.",
   "keywords": [
   ],
   "activationCommands": {

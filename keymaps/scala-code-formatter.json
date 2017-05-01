@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "scala-code-formatter:format"
+    "ctrl-alt-p": "scala-code-formatter:format"
   }
 }

@@ -1,5 +1,19 @@
 # scala-code-formatter package
 
-A short description of your package.
+This Package adds the scala formatter "scalafmt" to Atom.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Movie Gif (Vorher/Nachher)
+
+## Installation
+
+* JVM -> Path to java_home
+
+## Usage
+
+* Format the current scala file (hotkey ctrl-alt-p)
+
+## Configuration
+
+## Thanks
+
+scalafmt author
