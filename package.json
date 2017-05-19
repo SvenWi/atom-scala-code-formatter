@@ -2,13 +2,13 @@
   "name": "scala-code-formatter",
   "main": "./lib/scala-code-formatter",
   "version": "0.1.0",
-  "description": "This Package adds the scala formatter scalafmt to Atom.",
+  "description": "This Package adds scala formatting capabilities to Atom using the tool scalafmt.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "scala-code-formatter:format"
   },
-  "repository": "https://github.com/atom/scala-code-formatter",
+  "repository": "https://github.com/SvenWi/atom-scala-code-formatter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
