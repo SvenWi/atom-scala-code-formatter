@@ -2,18 +2,21 @@
 
 This Package adds the scala formatter "scalafmt" to Atom.
 
-Movie Gif (Vorher/Nachher)
+See http://scalameta.org/scalafmt for details about scalafmt.
 
-## Installation
+## Requirements
 
-* JVM -> Path to java_home
+* JVM (openjdk, oracle jre)
 
 ## Usage
 
-* Format the current scala file (hotkey ctrl-alt-p)
+* Format the current scala file (hotkey ctrl-alt-x)
 
 ## Configuration
 
+scalafmt can be customized.
+See http://scalameta.org/scalafmt/#Configuration for more details.
+
 ## Thanks
 
-scalafmt author
+* to the scalafmt Team for the awesome tool
